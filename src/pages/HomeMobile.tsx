@@ -11,11 +11,11 @@ const Home: FC = () => {
             className="header_mobile"
             style={styleHome}
         >
-            <div id='google_translate_element'>
+            <div className="header__logo_mobile">
+<div id='google_translate_element'>
       
         
       </div>
-            <div className="header__logo_mobile">
                 <img
                     className="header__logo_image_mobile"
                     src={Logo}

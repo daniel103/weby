@@ -1,0 +1,125 @@
+.contact__contents {
+    background-image: url("../images/BgVectorContact.png");
+    background-size: 976px 960px;
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+    scroll-behavior: smooth;
+}
+#contact{
+    direction: ltr !important;
+}
+@media screen and (max-width: 768px) {
+    .contact__contents {
+        background-image: url("../images/VectorContactMobile.png");
+        background-size: cover;
+        background-position: center;
+        background-position: right 0 top 0;
+    }
+}
+
+.contact_container {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_maps {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+.contact_right {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_right {
+        width: 300px;
+        margin-left: 0%;
+    }
+}
+
+.contact_adress,
+.contact_phone {
+    display: flex;
+    align-items: center;
+}
+
+.contact_text,
+.contact_number {
+    font-size: clamp(18px, 1.4rem, 40px);
+    color: #664931;
+}
+
+.contact__icon {
+    width: 45px;
+    height: 71px;
+    margin-right: 5%;
+}
+
+.contact_button-whatsapp,
+.contact_button-map,
+.contact_button-waze {
+    display: flex;
+    align-items: center;
+    width: 444px;
+    height: 105px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_button-whatsapp,
+    .contact_button-map,
+    .contact_button-waze {
+        width: 300px;
+        height: 90px;
+        margin: 5% 0%;
+    }
+}
+
+.contact_button-whatsapp {
+    background: linear-gradient(92.77deg, #3a9838 22.26%, #0d5020 74.28%);
+}
+
+.contact_button-map {
+    background: linear-gradient(92.77deg, #ecb833 48.12%, #fcc63d 74.28%);
+}
+
+.contact_button-waze {
+    background: linear-gradient(92.77deg, #00d1ff 48.12%, #9671ff 74.28%);
+}
+
+.contact_button-text {
+    color: #ffffff;
+    font-size: clamp(20px, 1.5rem, 28px);
+    width: 248px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_button-text {
+        width: 150px;
+    }
+
+    .contact_button-mobileiconwapp,
+    .contact_button-mobileiconwaze {
+        width: 60px;
+    }
+
+    .contact_button-mobileiconmap {
+        width: 40px;
+    }
+}
+
+.contact__contents a {
+    text-decoration: none;
+}

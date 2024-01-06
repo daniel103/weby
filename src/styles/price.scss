@@ -1,0 +1,103 @@
+#price {
+    margin-top: 10%;
+}
+
+.contentImage {
+    background-image: url("../images/BgVectorPrice.png");
+    background-size: 960px 950px;
+    background-repeat: no-repeat;
+    background-position: left 0 top 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #price {
+        margin-top: 30%;
+    }
+
+    .contentImage {
+        background-image: url("../images/VectorPriceMobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+
+.price__lot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .price_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.price-left_title,
+.price-right_title {
+    font-size: 40px;
+    color: #664931;
+}
+
+.price-left_menu,
+.price-right_menu {
+    font-size: clamp(18px, 1.5rem, 32px);
+    color: #664931;
+}
+
+.price-right,
+.price-left {
+    width: 610px;
+}
+
+@media screen and (max-width: 768px) {
+    .price-right,
+    .price-left {
+        width: 300px;
+    }
+}
+
+.price_button {
+    background: linear-gradient(92.77deg, #3a9838 22.26%, #0d5020 74.28%);
+    width: 444px;
+    height: 105px;
+    margin: 20% auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .price_button {
+        display: none;
+    }
+}
+
+.price_button-text {
+    color: #ffffff;
+    font-size: clamp(24px, 1.5rem, 28px);
+    width: 248px;
+}
+
+.price_button-logo {
+    width: 89px;
+    height: 89px;
+}
+
+@media screen and (max-width: 768px) {
+    .price-right,
+    .price-left {
+        width: 300px;
+    }
+}

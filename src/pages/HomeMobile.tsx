@@ -12,7 +12,7 @@ const Home: FC = () => {
             style={styleHome}
         >
             <div className="header__logo_mobile">
-<div id='google_translate_element'>
+            <div id='google_translate_element'>
       
         
       </div>

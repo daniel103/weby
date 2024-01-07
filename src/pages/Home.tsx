@@ -22,10 +22,6 @@ const Home: FC = () => {
             id="#home"
             className="header"
         >
-<div id='google_translate_element'>
-      
-        
-      </div>
             <nav className="header__nav_comp">
                 {navLink.map((link) => (
                     <a
@@ -36,6 +32,10 @@ const Home: FC = () => {
                     </a>
                 ))}
             </nav>
+<div id='google_translate_element'>
+      
+        
+      </div>
             <div className="homeContainer">
                 <img
                     className="homeContainer__rightLeave"

@@ -12,10 +12,6 @@ const Home: FC = () => {
             style={styleHome}
         >
             <div className="header__logo_mobile">
-            <div id='google_translate_element'>
-      
-        
-      </div>
                 <img
                     className="header__logo_image_mobile"
                     src={Logo}
@@ -35,6 +31,10 @@ const Home: FC = () => {
                     alt="right leave"
                 />
             </div>
+            <div id='google_translate_element'>
+      
+        
+      </div>
 
             <nav className="header__nav_mobile">
                 <a

@@ -32,7 +32,7 @@ const Home: FC = () => {
                     </a>
                 ))}
             </nav>
-<div id='google_translate_element'>
+                           <div id='google_translate_element'>
       
         
       </div>
